@@ -26,7 +26,7 @@ app = App()
 ​
 @app.route('/')
 def index(request):
-You can easily add your CSS and JavaScript with just a few lines.
+# You can easily add your CSS and JavaScript with just a few lines.
 css_link = Tags.link().attr('href', '/static/style.css').attr('rel', 'stylesheet')
 js_script = Tags.script().attr('src', '/static/script.js')
 ​
